@@ -1,0 +1,175 @@
+#user_profile {
+    clear:both;
+    overflow: hidden;
+}
+
+#user_profile_title {
+    margin: 20px 0;
+    overflow: hidden;
+}
+#user_profile_title h1 {
+	display: inline-block;
+}
+#user_profile_title .avatar {
+    float: right;
+}
+
+#user_profile_title .avatar img {display:block; border-radius: 50%;width:90px;height:90px;}
+
+.ava {
+   margin-bottom: 20px;
+   margin-top: 13px;
+    text-align: center;
+    width: 90px;
+    margin-left: 25px;
+    border: 2px solid #fff;
+    border-radius: 100% 100%;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+ 
+#user_status_widget{
+    background-color:#F4FAFC;
+    padding:5px;
+    border-radius: 4px;
+    margin-top:-5px;
+    overflow: hidden;
+	display: inline-block;
+}
+
+#user_status_widget .input{
+    border-color:#A3CAE0; border-radius: 2px;
+}
+
+#user_status_widget.loading {
+    background-position: center center;
+}
+
+#user_status_widget.loading .input{
+    visibility: hidden;
+}
+#user_profile_title h1 {
+	margin-bottom: 10px !important;
+	display: table;
+}    
+
+.status {
+    margin: 2px 0 2px 0;
+    background-color: #fffbdd;
+    color: #666;
+    display: table;
+    padding: 2px 4px;
+}
+
+
+.box {
+border: 0;
+ 
+    padding: 0;
+    float: left;
+    width: 70%;
+}
+.box label {
+    display: block;
+    float: left;
+    margin-bottom: 4px;
+}
+.box.wide label {
+    width: 12em;
+}
+.box br {
+    clear: left;
+}
+.box label.required {
+    font-weight: bold;
+}
+.box label, .box span, .box select, .box br {
+    line-height: 2em;
+}
+
+ 
+#user_profile_title .name.name_with_status h1 {
+    font-size: 24px;
+}
+#user_profile_rates, #user_profile_ratings {
+    float:right;
+    position: relative;
+}
+#user_profile_ratings {
+    margin-right: 10px;
+}
+#user_profile_rates .block, #user_profile_ratings .block {
+    line-height: 20px;
+    padding: 5px 10px;
+    border-radius: 2px;
+    font-size: 21px;
+    background-color: #ecf0f1;
+    color: #555;
+    text-align: center;
+}
+#user_profile_ratings .block {
+
+}
+.block .user_ratings_hint {
+    line-height: normal;
+    font-size: 12px;
+}
+ 
+#user_profile_rates .negative { color:red; }
+#user_profile_rates .positive { color:green; }
+#user_profile_rates .karma .value,
+#user_profile_rates .karma .thumb{
+    display: inline-block;
+}
+ 
+#user_profile_rates .karma .thumb:hover{
+    opacity:1;
+}
+#user_profile_rates .karma .thumb_up{
+    background-position: 0 0;
+    margin-right:5px;
+	color:#999;
+}
+#user_profile_rates .karma .thumb_down{
+    background-position: -16px 0;
+    margin-left:5px;
+	color:#999;
+}
+
+sup{
+    font-size: 13px;
+    color: #919191;
+}
+
+ 
+.blockquote-8 {
+    position: relative;
+    padding: 16px 24px;
+    margin: 16px 46px;    
+    font-size: 16px;
+    text-align: center;
+}
+.blockquote-8:before,
+.blockquote-8:after {
+    position: absolute;
+    color: #BFE2FF;
+    font-size: 100px;
+    font-family: Times, sans-serif;    
+    line-height: 100px;    
+}
+.blockquote-8:before {
+    content: '“';
+    left: -30px;
+    top: -10px;
+}
+.blockquote-8:after {
+    content: '”';
+    right: -30px;
+    bottom: -10px;
+}
+.blockquote-8 cite {
+    color: #337AB7;
+    font-size: 15px;
+    padding-top: 10px;
+    display: block;
+}
