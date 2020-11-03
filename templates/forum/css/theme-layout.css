@@ -488,8 +488,8 @@ ul.pills-menu>li.active, ul.tabbed>li.active{
 
 #body aside{
     float:right;
-    width:240px;
-    margin-bottom: 10px;
+    width:170px;
+    margin-top: 40px;
 }
 
 /* Sidebar Navigation ======================================================= */
