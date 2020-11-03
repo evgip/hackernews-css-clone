@@ -1,10 +1,7 @@
 # hackernews-css-clone
 Reddit / Hacker News clone for InstantCMS
-https://github.com/instantsoft/icms2
 
-
-### Demo
-http://dev.sugata.ru/
+Установить: https://github.com/instantsoft/icms2
 
 ### Некоторые настройки:
 
